@@ -1,4 +1,4 @@
-﻿CREATE TABLE test_schedule_tbl (
+﻿CREATE TABLE TEST_SCHEDULE_TBL (
 	ID int AUTO_INCREMENT PRIMARY KEY,
     TITLE varchar(40),
     CATEGORY varchar(20),
@@ -7,7 +7,7 @@
     DESCRIPTION varchar(100)
 );
 
-INSERT INTO test_schedule_tbl (TITLE, CATEGORY, TESTDATE, LOCATION, DESCRIPTION) VALUES('Online Psicotest Interview Phase 1','Online Test','2021-01-01','http://zoom.com/','Lorem ipsum lorem ipsum lorem ipsum.');
+INSERT INTO TEST_SCHEDULE_TBL (TITLE, CATEGORY, TESTDATE, LOCATION, DESCRIPTION) VALUES('Online Psicotest Interview Phase 1','Online Test','2021-01-01','http://zoom.com/','Lorem ipsum lorem ipsum lorem ipsum.');
 INSERT INTO TEST_SCHEDULE_TBL (TITLE, CATEGORY, TESTDATE, LOCATION, DESCRIPTION) VALUES('Online Technical Test Phase 1','Online Test','2021-01-11','http://zoom.com/','Loren ipsum dolor sit amet.');
 INSERT INTO TEST_SCHEDULE_TBL (TITLE, CATEGORY, TESTDATE, LOCATION, DESCRIPTION) VALUES('Online Logical Test Phase 1','Online Test','2021-02-06','http://zoom.com/','Lorem ipsum.');
 INSERT INTO TEST_SCHEDULE_TBL (TITLE, CATEGORY, TESTDATE, LOCATION, DESCRIPTION) VALUES('Offline Psicotest Interview Phase 1','Offline Test','2021-01-08','PT Berca Hardayaperkasa','Lorem ipsum lorem ipsum lorem ipsum.');
