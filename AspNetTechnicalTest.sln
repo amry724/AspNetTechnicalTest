@@ -11,16 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTechnical", "AspNetCore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTechnical", "AspNetFrameworkWithMSSQL\TestTechnical.csproj", "{7191D390-087F-4BE0-A928-D10D2680936C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{E0F2E97D-699A-48AD-8770-B1E2F2B14856}"
-	ProjectSection(SolutionItems) = preProject
-		Script.sql = Script.sql
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{C3BDAF08-CF55-4110-AFE1-902BA3BDF16F}"
-	ProjectSection(SolutionItems) = preProject
-		Script.sql = Script.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,8 +32,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{949C53AF-5640-4376-AB15-BF1E58F12C2A} = {E952E7BD-DF7F-43F0-B8DF-ED955FCCEEB8}
 		{7191D390-087F-4BE0-A928-D10D2680936C} = {9D295434-D3E5-43CB-9AB4-F25B39DFCA8E}
-		{E0F2E97D-699A-48AD-8770-B1E2F2B14856} = {E952E7BD-DF7F-43F0-B8DF-ED955FCCEEB8}
-		{C3BDAF08-CF55-4110-AFE1-902BA3BDF16F} = {9D295434-D3E5-43CB-9AB4-F25B39DFCA8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {627896C5-B7B4-4668-B7D2-CCE922D24432}
